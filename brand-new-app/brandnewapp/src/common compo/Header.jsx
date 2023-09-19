@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
- import { Link } from 'react-router-dom';
-
+import { Link, Links, Outlet } from 'react-router-dom';
 import {
   MDBContainer,
   MDBNavbar,
@@ -24,9 +23,10 @@ export default function Header() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <>
+    <MDBNavbar expand='lg' light bgColor='info'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
+        <MDBNavbarBrand href='#'>Brand-New-App</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -41,18 +41,41 @@ export default function Header() {
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page' href='#'>
-               <Link to={"/"}>  Home</Link>
+               <Link to={"/home"}>Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink>
-               <Link to={"/about"}>About</Link></MDBNavbarLink>
+              <MDBNavbarLink href='#'>
+                <Link to={"/about"}>About</Link>
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>
+                <Link to={"/contact"}>Contact</Link>
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
+            
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>
+                <Link to={"/dummy"}>Dummy</Link>
+              </MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink>
-               <Link to={"/contact"}>Contact</Link></MDBNavbarLink>
+              <MDBNavbarLink href='#'>
+                <Link to={"/product"}>Product</Link>
+              </MDBNavbarLink>
             </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>
+                <Link to={"/example"}>Example</Link>
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
 
             <MDBNavbarItem>
               <MDBDropdown>
@@ -81,5 +104,7 @@ export default function Header() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
+    {/* <Outlet /> */}
+    </>
   );
 }

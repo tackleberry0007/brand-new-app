@@ -1,0 +1,35 @@
+.Crud-css,.alldata{
+    text-align: center;
+}
+input{
+    padding: 10px 50px;
+    font-size: 17px;
+    border-radius: 10px;
+
+}
+button{
+    padding: 10px 50px;
+    font-family:  sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+h1{
+    color: cadetblue;
+    text-align: center;
+}
+.alldata button{
+    padding: 10px 70px;
+    border-radius: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-family:  sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+  
+
+
+}

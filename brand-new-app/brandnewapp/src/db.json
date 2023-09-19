@@ -1,0 +1,161 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "customer name": "Aladin",
+      "Profession": "clerk",
+      "branch": "Ahmedabad",
+      "city": "Ahmedabad",
+      "bank-balance": "10cr"
+    },
+    {
+      "id": 3,
+      "customer name": "James",
+      "Profession": "Taxi Driver",
+      "branch": "Gandhinagar",
+      "city": "Gandhinagar",
+      "bank-balance": "1cr"
+    },
+    {
+      "id": 4,
+      "customer name": "Ketty Mishra",
+      "Profession": "Singer",
+      "branch": "Gandhinagar",
+      "city": "Gandhinagar",
+      "bank-balance": "91cr"
+    },
+    {
+      "id": 5,
+      "customer name": "Rahul singal",
+      "Profession": "Businessman",
+      "branch": "Gandhinagar",
+      "city": "Gandhinagar",
+      "bank-balance": "100rupee"
+    },
+    {
+      "id": 6,
+      "customer name": "veerappan",
+      "Profession": "Mafia",
+      "branch": "surat",
+      "city": "surat",
+      "bank-balance": "200cr"
+    },
+    {
+      "id": 7,
+      "customer name": "Pushpa",
+      "Profession": "Mafia",
+      "branch": "Jamnagar",
+      "city": "Jamnagar",
+      "bank-balance": "2000cr"
+    },
+    {
+      "id": 8,
+      "customer name": "Rocky",
+      "Profession": "Mafia",
+      "branch": "Jamnagar",
+      "city": "Jamnagar",
+      "bank-balance": "100000cr"
+    },
+    {
+      "id": 9,
+      "customer name": "Harnish Panchal",
+      "Profession": "Teacher",
+      "branch": "SG-hinghway",
+      "city": "Ahmedabad",
+      "bank-balance": "1cr"
+    },
+    {
+      "id": 10,
+      "customer name": "kalpesh chunawala",
+      "Profession": "MRF-CEO",
+      "branch": "mumbai",
+      "city": "mumbai",
+      "bank-balance": "10cr"
+    },
+    {
+      "id": 11,
+      "customer name": "Adbul Karim Talgi",
+      "Profession": "Mafia",
+      "branch": "mumbai",
+      "city": "mumbai",
+      "bank-balance": "50000cr"
+    },
+    {
+      "id": 12,
+      "customer name": "vin diesel",
+      "Profession": "Actor",
+      "branch": "california",
+      "city": "california",
+      "bank-balance": "500cr"
+    },
+    {
+      "id": 13,
+      "customer name": "Vladimir Putin",
+      "Profession": "Politican",
+      "branch": "Saint peterburg",
+      "city": "Saint peterburg",
+      "bank-balance": "1000000cr"
+    },
+    {
+      "id": 14,
+      "customer name": "Alice pandint",
+      "Profession": "chief",
+      "branch": "karol bagh",
+      "city": "karol bagh",
+      "bank-balance": "0"
+    },
+    {
+      "id": 15,
+      "customer name": "Ravi Mistri",
+      "Profession": "Frontend Developer",
+      "branch": "Ahmedabad",
+      "city": "Ahmedabad",
+      "bank-balance": "-500"
+    },
+    {
+      "id": 16,
+      "customer name": "Elon Musk",
+      "Profession": "Businessman",
+      "branch": "forks",
+      "city": "forks",
+      "bank-balance": "50000cr"
+    },
+    {
+      "id": 17,
+      "customer name": "Mark zuckerberg",
+      "Profession": "Businessman",
+      "branch": "goa",
+      "city": "goa",
+      "bank-balance": "5000cr"
+    },
+    {
+      "id": 18,
+      "customer name": "Vivek ",
+      "Profession": "",
+      "branch": "Mumbai",
+      "city": "Mumbai",
+      "bank-balance": "200cr"
+    },
+    {
+      "id": 19,
+      "customer name": "rajeev ",
+      "Profession": "Drug Dealer",
+      "branch": "Patna",
+      "city": "Patna",
+      "bank-balance": "2000cr"
+    },
+    {
+      "id": 20,
+      "customer name": "Pankaj Parasd",
+      "Profession": "Professor",
+      "branch": "Bangalore",
+      "city": "bangalore",
+      "bank-balance": "20cr"
+    }
+  ]
+}
