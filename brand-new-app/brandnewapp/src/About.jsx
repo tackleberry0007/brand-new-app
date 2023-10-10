@@ -4,6 +4,7 @@
  import Header from './common compo/Header';
  import Card from './Card';
 
+
  
  function About() {
     return (
@@ -13,7 +14,9 @@
          <h1>About</h1>
          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vel consequuntur dignissimos rerum ea 
-        </p>   
+        </p>  
+
+        
         </>
     );
  }

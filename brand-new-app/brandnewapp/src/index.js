@@ -5,13 +5,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider } from 'react-router-dom'
 import Mainrouter from './Mainrouter';
+import { Provider } from 'react-redux';
+import Store from './Store';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Provider store={store}>
   <RouterProvider router={Mainrouter} />
+  </Provider>
 
- 
+  
   
 );
 

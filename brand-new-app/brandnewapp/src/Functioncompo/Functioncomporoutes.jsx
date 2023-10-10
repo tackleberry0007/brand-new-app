@@ -10,6 +10,7 @@ import APIchild from './APIchild';
 import Crud from './Crud';
 
 
+
 const Functioncomporoutes = () => {
     return ( 
         <>
@@ -36,6 +37,7 @@ const Functioncomporoutes = () => {
 
             
         </Routes>
+       
           </>
      );
 }
