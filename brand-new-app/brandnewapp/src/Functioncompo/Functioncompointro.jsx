@@ -1,14 +1,16 @@
 import React from 'react'
-import { UseSelector, useDispatch } from 'react-redux/es/hooks/useSelector';
+
 
 
 function Functioncompointro() {
     return ( 
     <>
-    
-    <h1>Functioncompointro</h1>
-    
-         
+   
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
+         <h1>Functioncompointro</h1>
+</div>
+     
     </> 
     )
 }
